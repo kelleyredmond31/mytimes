@@ -42,20 +42,18 @@ nav a {
 
 .column {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .column.large {
   display: flex;
   width: 630px;
-  flex-direction: column;
-  padding-right: 30px;
 }
 
 .column.medium {
   width: 300px;
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
 }
 
 .column.small {

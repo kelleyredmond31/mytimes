@@ -62,6 +62,7 @@ nav a {
 .column.small {
   width: 240px;
   display: flex;
+  flex-direction: column;
 }
 
 .image-content {
@@ -121,6 +122,7 @@ color: white;
   font-size: 30px;
   color: white;
   text-align: center;
+  align-content: center;
 }
 
 .cookie {
@@ -128,5 +130,62 @@ color: white;
 }
 
 .news-bites {
-  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.bites ul li {
+  list-style-type: none;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  font-weight: normal;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  padding: 5px 0px 5px 10px;
+}
+
+footer {
+  display: flex;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	position: relative;
+	top: 100px;
+	height: 400px;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+  flex-grow: 1;
+}
+
+.footer-logo #title {
+display: flex;
+color: white;
+padding-right: 10px;
+border-right: 2px solid white;
+font-family: Georgia;
+font-size: 16px;
+font-weight: bold;
+}
+
+footer nav {
+  padding: 0px 20px;
+}
+
+footer a {
+  color: black;
+}
+
+.info {
+  display: flex;
+}
+
+.footer-cr {
+  justify-content: center;
 }
